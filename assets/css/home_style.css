@@ -1,0 +1,89 @@
+#navigation_bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #145589;
+}
+#navigation_bar li {
+    float: right;
+}
+#navigation_bar li a {
+    display: block;
+    color: #FBF6CE;
+    text-align: center;
+    font-size: 23px;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#big_name {
+    font-size: 55px;
+}
+#big_name, h1, h2, h3 {
+    color: #182945;
+}
+body {
+   background-color: #E8E8F0;
+    padding: 0px 40px 30px 40px; 
+    line-height: 1.5;
+    font-size: 20px;
+}
+#resume {
+    font-size: 19px;
+}
+                
+img {
+     height: 25%;
+     width: 25%;
+}
+
+.profile {
+      float: left;
+      padding-right: 30px;
+      
+}
+.college {
+    display: block;
+    margin: auto;
+    height: 30%;
+    width: 40%;
+}
+/*ul, li {
+    margin-top: 1%;
+    margin-bottom: 1%;}*/
+
+#email, .left_inline {
+    float: left;
+    width:33.33333%;
+    text-align:left;
+}
+#phone, .center_inline {
+    float: left;
+    width:33.33333%;
+    text-align:center;
+}
+#linkedin, .right_inline {
+    float: right;
+    width:33.33333%;
+    text-align:right;
+}
+
+.leftAlign {
+    text-align:left;
+}
+
+.rightAlign {
+    float:right;
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid black;
+    margin-top: -1em; 
+    size: 10px;
+    width: 100%
+}
+strong {
+    color: #182945;
+}
